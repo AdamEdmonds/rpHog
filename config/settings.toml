@@ -1,0 +1,3 @@
+[default]
+button1EventName = 'OfficeLightToggle'
+webHooks = { keymergetok='{key}',eventmergetok='{event}',triggerurl='https://maker.ifttt.com/trigger/{event}/with/key/{key}'}
