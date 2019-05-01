@@ -1,3 +1,4 @@
 [default]
-button1EventName = 'OfficeLightToggle'
+buttons=[{pin=11, eventName='OfficeLightToggle'},{pin=13, eventName='OfficeLightToggle'},{pin=15, eventName='OfficeLightToggle'},{pin=16, eventName='OfficeLightToggle'}, {pin=18, eventName='OfficeLightToggle'}]
+ledPins = [22,24]
 webHooks = { keymergetok='{key}',eventmergetok='{event}',triggerurl='https://maker.ifttt.com/trigger/{event}/with/key/{key}'}
