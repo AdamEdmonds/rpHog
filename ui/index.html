@@ -1,0 +1,38 @@
+
+<html>
+<head>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<script>
+
+const baseUrl = "http://10.1.10.36:8123/api/webhook/";
+const KL_ON = "KitchenLightsOn";
+const KL_OFF = "KitchenLightsOff";
+const LR_OFF = "LivingRoomLightsOff";
+const LR_ON = "LivingRoomLightsOn";
+const OF_TG = "ToggleOfficeLights";
+function apiCall(apiName){
+	axios.post(baseUrl+apiName)
+	.then(data=>console.log(data))
+	.catch(err=>console.log(err));
+	
+};
+</script>
+<div class="container">
+  <div>
+    <button name="btnKitchenLightOn" onClick="apiCall(KL_ON)" class="item" >Kitchen Lights On</button>
+    <button name="btnKitchenLightOff" onClick="apiCall(KL_OFF)" class="item" >Kitchen Lights Off</button>
+  </div>
+  <div>
+    <button name="btnLivingRoomLightOn" onClick="apiCall(LR_ON)" class="item">Living Room Lights On</button>
+    <button name="btnLivingRoomLightOff" onClick="apiCall(LR_OFF)" class="item">Living Room Lights Off</button>
+  </div>
+  <div>
+    <button name="btnToggleOfficeLights" onClick="apiCall(OF_TG)" class="item">Toggle Office Lights</button>
+  </div
+</div>
+
+<body>
+</html>

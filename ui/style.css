@@ -1,0 +1,12 @@
+.container{
+	display: grid;
+	grid-template-columns: 32% 32% 32%;
+	grid-template-rows: auto;
+}
+.item{
+	min-height: 50px;
+	margin: 10px;
+	justify-self: center;
+	align-self: center;
+}
+

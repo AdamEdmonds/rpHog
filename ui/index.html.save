@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+import axios from 'axios'
+var baseUrl = "http://10.1.10.36:8123/api/webhook/";
+var KL_On = "KitchenLightsOn";
+var KL_OFF = "KitchenLightsOff";
+var LR_OFF = "LivingRoomLightsOff";
+var LR_ON = "LivingRoomLightsON";
+function apiCall(apiName){
+	var xhr = new XMLHttpRequest();
+	xhr.open("POST", baseUrl+apiName, true);
+	xhr.set
+}
+</script>
+<button name="btnKitchenLightOn" onClick="apiCall(KL_ON)" >KitchenLightsOn</button>
+<button name="btnKitchenLightOff" onClick="apiCall(KL_OFF)" >KitchenLightsOn</button>
+<button name="btnLivingRoomLightOn" onClick="apiCall(LR_ON)" >Living Room Lights On</button>
+<button name="btnLivingRoomLightOff" onClick="apiCall(LR_OFF)" >Living Room Lights Off</button>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<body>
+</html>

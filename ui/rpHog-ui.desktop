@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=rpHog-ui
+Exec=/home/pi/rpHog/ui/ks-ui.sh
+Type=application

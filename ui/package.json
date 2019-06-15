@@ -1,0 +1,24 @@
+{
+  "name": "rphog_ui",
+  "version": "1.0.0",
+  "description": "ui for small raspberry pi touchscreen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamEdmonds/rpHog.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi"
+  ],
+  "author": "Adam Edmonds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamEdmonds/rpHog/issues"
+  },
+  "homepage": "https://github.com/AdamEdmonds/rpHog#readme",
+  "dependencies": {}
+}
